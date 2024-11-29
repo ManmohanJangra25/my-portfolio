@@ -7,10 +7,10 @@ const AboutProfile = () => {
       <img src="./assets/images/bg1.png" alt="BG" className="bg-img" />
       <div className="inner-profile-icons shadow-box">
         <a href="#">
-          <i class="fa-brands fa-linkedin" style={linkedinColor}></i>
+          <i className="fa-brands fa-linkedin" style={linkedinColor}></i>
         </a>
         <a href="#">
-          <i class="fa-brands fa-github"></i>
+          <i className="fa-brands fa-github"></i>
         </a>
       </div>
       <div className="d-flex align-items-center justify-content-between">

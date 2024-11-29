@@ -18,12 +18,12 @@ const Specialization = () => {
     <div className="about-services-box info-box shadow-box h-full">
       <a href="./service.html" className="overlay-link"></a>
       <img src="./assets/images/bg1.png" alt="BG" className="bg-img" />
-      <div class="icon-boxes">
-        <i class="fa-brands fa-js" style={jsColor}></i>
-        <i class="fa-brands fa-react" style={reactColor}></i>
-        <i class="fa-brands fa-gitlab" style={gitlabColor}></i>
-        <i class="fa-brands fa-node" style={nodeColor}></i>
-        <i class="fa-brands fa-docker" style={dockerColor}></i>
+      <div className="icon-boxes">
+        <i className="fa-brands fa-js" style={jsColor}></i>
+        <i className="fa-brands fa-react" style={reactColor}></i>
+        <i className="fa-brands fa-gitlab" style={gitlabColor}></i>
+        <i className="fa-brands fa-node" style={nodeColor}></i>
+        <i className="fa-brands fa-docker" style={dockerColor}></i>
       </div>
       <div className="d-flex align-items-center justify-content-between">
         <div className="infos">

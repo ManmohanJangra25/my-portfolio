@@ -1446,7 +1446,7 @@ function calcDeltaTime() {
 
 function resizeCanvas() {
   let width = scaleByPixelRatio(canvas.clientWidth);
-  let height = scaleByPixelRatio(canvas.clientHeight);
+  let height = scaleByPixelRatio(window.outerHeight);
   if (canvas.width != width || canvas.height != height) {
     canvas.width = width;
     canvas.height = height;
