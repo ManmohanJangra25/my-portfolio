@@ -129,7 +129,7 @@ ol {
 .shadow-box {
     position: relative;
     border-radius: 30px;
-    background: rgba(15, 15, 15, 0.8);
+    background: rgba(15, 15, 15, 0.8)
 }
 .shadow-box::after {
     content: '';
