@@ -1,3 +1,7 @@
+.icon-boxes{
+    flex-wrap: wrap;
+}
+
 .icon-boxes .fa-brands span{
     position: absolute;
     font-size: 10px;

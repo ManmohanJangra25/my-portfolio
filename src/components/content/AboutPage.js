@@ -51,7 +51,7 @@ const AboutPage = () => {
               <h3>EXPERIENCE</h3>
 
               <div className="row">
-                <div className="col-6">
+                <div className="col-lg-6 col-sm-12">
                   <ul>
                     <li>
                       <p className="date">02/2023 – 11/2024</p>
@@ -65,7 +65,7 @@ const AboutPage = () => {
                     </li>
                   </ul>
                 </div>
-                <div className="col-6">
+                <div className="col-lg-6 col-sm-12">
                   <ul>
                     <li>
                       <p className="date">07/2021 – 02/2022</p>
@@ -101,34 +101,33 @@ const AboutPage = () => {
               </ul>
             </div>
           </div>
-          <div className="row mt-24">
-            <div className="col-md-12">
-              <Specialization type="full_width" />
-            </div>
+          <div
+            className="col-md-12 aos-init aos-animate mt-24"
+            data-aos="zoom-in"
+          >
+            <Specialization type="full_width" />
           </div>
-          <div className="row mt-24">
-            <div className="col-md-12">
-              <div className="d-flex profile-contact-credentials-wrap gap-24">
-                <div
-                  data-aos="zoom-in"
-                  className="aos-init aos-animate col-lg-3"
-                >
-                  <AboutProfile />
-                </div>
+          <div
+            className="col-md-12 aos-init aos-animate mt-24"
+            data-aos="zoom-in"
+          >
+            <div className="d-flex profile-contact-credentials-wrap gap-24">
+              <div data-aos="zoom-in" className="aos-init aos-animate col-lg-3">
+                <AboutProfile />
+              </div>
 
-                <div
-                  data-aos="zoom-in"
-                  className="flex-1 aos-init aos-animate col-lg-5"
-                >
-                  <AboutContactBox />
-                </div>
+              <div
+                data-aos="zoom-in"
+                className="flex-1 aos-init aos-animate col-lg-5"
+              >
+                <AboutContactBox />
+              </div>
 
-                <div
-                  data-aos="zoom-in"
-                  className="h-full aos-init aos-animate col-lg-4"
-                >
-                  <MoreAboutMe />
-                </div>
+              <div
+                data-aos="zoom-in"
+                className="h-full aos-init aos-animate col-lg-4"
+              >
+                <MoreAboutMe />
               </div>
             </div>
           </div>

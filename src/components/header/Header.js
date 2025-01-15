@@ -10,12 +10,16 @@ const Header = () => {
     openMenu === false ? setOpenMenu(true) : setOpenMenu(false);
   }
 
+  const closeNavMobileFunction = (data) => {
+    setOpenMenu(data);
+  };
+
   return (
     <header className="header-area">
       <div className="container">
         <div className="gx-row d-flex align-items-center justify-content-between">
           <Logo />
-          <Menu mobile={openMenu} />
+          <Menu closeNavMobile={closeNavMobileFunction} mobile={openMenu} />
           <ContactButton />
           <div
             className={`show-menu ${openMenu ? "active" : ""}`}

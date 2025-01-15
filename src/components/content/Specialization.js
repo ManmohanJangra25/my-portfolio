@@ -48,10 +48,10 @@ const Specialization = (props) => {
         </div>
       ) : (
         <div className="icon-boxes">
-          <i class="fa-brands fa-html5" style={htmlColor}>
+          <i className="fa-brands fa-html5" style={htmlColor}>
             <span>HTML5 - 4 Years</span>
           </i>
-          <i class="fa-brands fa-css3" style={cssColor}>
+          <i className="fa-brands fa-css3" style={cssColor}>
             <span>CSS3 - 4 Years</span>
           </i>
           <i className="fa-brands fa-js" style={jsColor}>
@@ -69,10 +69,10 @@ const Specialization = (props) => {
           <i className="fa-brands fa-docker" style={dockerColor}>
             <span>Docker - Containerization - 1 Years</span>
           </i>
-          <i class="fa-brands fa-wordpress">
+          <i className="fa-brands fa-wordpress">
             <span>Wordpress - CMS - 4 Years</span>
           </i>
-          <i class="fa-brands fa-figma" style={figmaColor}>
+          <i className="fa-brands fa-figma" style={figmaColor}>
             <span>Figma - Prototyping - 4 Years</span>
           </i>
         </div>
