@@ -1,14 +1,56 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
+import {
+  createBrowserRouter,
+  Route,
+  Router,
+  RouterProvider,
+} from "react-router-dom";
+import ContentSection from "./components/content/ContentSection";
+import AboutPage from "./components/content/AboutPage";
+import ContactPage from "./components/content/ContactPage";
+import { contactFormAction } from "./components/content/ContactForm";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <App />,
+    children: [
+      {
+        path: "/",
+        element: <ContentSection />,
+      },
+      {
+        path: "/about",
+        element: <AboutPage />,
+      },
+      {
+        path: "/works",
+        element: (
+          <div className="container pt-5">
+            <h1 className="text-center text-light">
+              Crafting something amazing <br /> Stay tuned for the big reveal!
+            </h1>
+          </div>
+        ),
+      },
+      {
+        path: "/contact",
+        element: <ContactPage />,
+        action: contactFormAction,
+      },
+    ],
+  },
+]);
 
 root.render(
   <React.StrictMode>
-    <App />
+    <RouterProvider router={router} />
   </React.StrictMode>
 );
 

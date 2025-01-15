@@ -14,6 +14,6 @@
     text-decoration: none;
 }
 
-.header_nav_list_items a:hover, .header_nav_list_items.active a{
+.header_nav_list_items a:hover, .header-area .navbar .menu li a.active{
     color: #ffffff;
 }

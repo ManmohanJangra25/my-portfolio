@@ -40,7 +40,7 @@ const ContentSection = () => {
                 <DownloadResume />
               </div>
               <div data-aos="zoom-in" className="flex-1 aos-init aos-animate">
-                <Specialization />
+                <Specialization type="box" />
               </div>
               <div data-aos="zoom-in" className="aos-init aos-animate">
                 <AboutProfile />

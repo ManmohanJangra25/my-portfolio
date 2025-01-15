@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const AboutProfile = () => {
   const linkedinColor = {
     color: "#0077B5",
@@ -6,12 +8,15 @@ const AboutProfile = () => {
     <div className="about-profile-box info-box shadow-box h-full">
       <img src="./assets/images/bg1.png" alt="BG" className="bg-img" />
       <div className="inner-profile-icons shadow-box">
-        <a href="http://linkedin.com/in/manmohan-jangra-b2703201" target="_blank">
+        <Link
+          to="http://linkedin.com/in/manmohan-jangra-b2703201"
+          target="_blank"
+        >
           <i className="fa-brands fa-linkedin" style={linkedinColor}></i>
-        </a>
-        <a href="https://github.com/ManmohanJangra25/" target="_blank">
+        </Link>
+        <Link to="https://github.com/ManmohanJangra25/" target="_blank">
           <i className="fa-brands fa-github"></i>
-        </a>
+        </Link>
       </div>
       <div className="d-flex align-items-center justify-content-between">
         <div className="infos">
