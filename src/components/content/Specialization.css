@@ -1,7 +1,3 @@
-.icon-boxes{
-    flex-wrap: wrap;
-}
-
 .icon-boxes .fa-brands span{
     position: absolute;
     font-size: 10px;
@@ -50,3 +46,10 @@
     opacity: 1;
     visibility: visible;
 }
+
+@media screen and (max-width: 680px) {
+    .icon-boxes{
+        flex-wrap: wrap;
+    }
+}
+
