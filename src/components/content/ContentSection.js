@@ -10,7 +10,7 @@ import AboutContactBox from "./AboutContactBox";
 
 const ContentSection = () => {
   return (
-    <section className="about-area" style={{ overflowX: "hidden" }}>
+    <section className="about-area" style={{ overflow: "hidden" }}>
       <div className="container">
         <div className="row">
           <div className="col-md-6 aos-init aos-animate" data-aos="fade-right">
