@@ -1,9 +1,9 @@
 import { NavLink } from "react-router-dom";
 import "./Menu.css";
 
-const Menu = () => {
+const Menu = (props) => {
   return (
-    <nav className="navbar">
+    <nav className={`navbar ${props.mobile ? "active" : ""}`}>
       <ul className="menu">
         <li>
           <NavLink to="/">Home</NavLink>
