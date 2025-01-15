@@ -6,10 +6,10 @@ const AboutProfile = () => {
     <div className="about-profile-box info-box shadow-box h-full">
       <img src="./assets/images/bg1.png" alt="BG" className="bg-img" />
       <div className="inner-profile-icons shadow-box">
-        <a href="#">
+        <a href="http://linkedin.com/in/manmohan-jangra-b2703201" target="_blank">
           <i className="fa-brands fa-linkedin" style={linkedinColor}></i>
         </a>
-        <a href="#">
+        <a href="https://github.com/ManmohanJangra25/" target="_blank">
           <i className="fa-brands fa-github"></i>
         </a>
       </div>
@@ -19,9 +19,9 @@ const AboutProfile = () => {
           <h1>Profiles</h1>
         </div>
 
-        <a href="./contact.html" className="about-btn">
+        <p href="#" className="about-btn">
           <img src="./assets/images/icon.svg" alt="Button" />
-        </a>
+        </p>
       </div>
     </div>
   );
