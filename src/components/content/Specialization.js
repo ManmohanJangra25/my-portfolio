@@ -27,7 +27,6 @@ const Specialization = (props) => {
   };
   return (
     <div className="about-services-box info-box shadow-box h-full">
-      {/* <a href="./service.html" className="overlay-link"></a> */}
       <img src="./assets/images/bg1.png" alt="BG" className="bg-img" />
       {props.type === "box" ? (
         <div className="icon-boxes">

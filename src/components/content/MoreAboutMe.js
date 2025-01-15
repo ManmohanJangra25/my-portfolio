@@ -9,7 +9,7 @@ const MoreAboutMe = () => {
       <div className="d-flex align-items-center justify-content-between">
         <div className="infos">
           <h4>more about me</h4>
-          <h1>Credentials</h1>
+          <h1>Discover</h1>
         </div>
         <Link to="/about" className="about-btn">
           <img src="./assets/images/icon.svg" alt="Button" />

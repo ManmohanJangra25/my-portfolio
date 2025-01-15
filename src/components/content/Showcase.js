@@ -1,7 +1,9 @@
+import { Link } from "react-router-dom";
+
 const Showcase = () => {
   return (
     <div className="about-project-box info-box shadow-box h-full">
-      <a className="overlay-link" href="./works.html"></a>
+      <Link className="overlay-link" to="/works"></Link>
       <img src="./assets/images/bg1.png" alt="BG" className="bg-img" />
       <img src="./assets/images/my-works.png" alt="My Works" />
       <div className="d-flex align-items-center justify-content-between">
@@ -10,9 +12,9 @@ const Showcase = () => {
           <h1>Projects</h1>
         </div>
 
-        <a href="#" className="about-btn">
+        <Link to="/works" className="about-btn">
           <img src="./assets/images/icon.svg" alt="Button" />
-        </a>
+        </Link>
       </div>
     </div>
   );
